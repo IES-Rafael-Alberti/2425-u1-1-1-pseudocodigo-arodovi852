@@ -1,0 +1,27 @@
+#Dividiendo entre números  
+Inicio
+    Escribe "Introduce un numero: "
+    Lee num1
+    num2 = 1
+    mientras (num2+1) < num1
+        num1 % num2
+        si num1 % num2 == 0
+        El número no es primo
+    sino
+        El número es primo
+Fin
+
+#Criba de Eratóstenes
+Inicio
+    Escribe "Introduce un numero: "
+    Lee num
+    A = matriz de valores de 2 a num donde todos los valores son verdaderos
+    para i = 2, 3, 4... que no supere √num hacer
+       si A(i) es verdadero
+            para j = i^2, i^2 + i, i^2 + 2i, i^2 + 3i... que no se pase de num entonces
+                  asignar A(j) := falso
+    si num == verdadero
+       escribe "El número es primo"
+    sino
+       escribe "El número no es primo"
+Fin
