@@ -1,0 +1,8 @@
+Inicio
+    Escribe "Introduce un numero: "
+    Lee num1
+    Si num1 % 2 == 0 entonces
+        escribir("El número es par")
+    Sino entonces
+        escribir("El número es impar")
+Fin
